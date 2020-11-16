@@ -1,0 +1,923 @@
+/* Gör att vi våran egna Padding och Margin och inte Google egna !  */
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* Här börjar min css till mein meny */
+/* Här börjar bilder för bilderIntro */
+.bilderIntro
+{
+  margin-bottom: 100px;
+  text-align: center;
+}
+/* Här avlustas bilder för bilderIntro */
+.center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+ 
+}
+.PhonePicture
+{
+  width: 270px;
+  
+}
+
+.PhonePicture2
+{
+ width: 200px;
+  }
+
+.textintro
+{
+  text-align: center;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+.navbar-brand p
+{
+  color: #900d0d;
+}
+
+.nav-link p
+{
+  color: #158467;
+}
+
+/* Så bilder Hover */
+.bilderIntro img:hover
+{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.bilderIntro img
+{
+ transition: transform 0.5s ease;  /*Gör en cool effect */
+}
+
+.GiveaWay
+{
+  color: #eeeeee;
+  background-color:#373a40;
+}
+
+.Give
+{
+  margin: 20px;
+  width: 300px;
+}
+
+.col h1
+{
+  font-family: 'Secular One', sans-serif;
+  font-size: 60px;
+}
+
+.col p
+{
+  font-family: 'Inconsolata', monospace;
+} 
+
+.Giveawaytext
+{
+  margin-top: 120px;   
+  /* Pushar ner texten */
+}
+
+.Giveawaybutton
+{
+  margin-top: 140px;
+  /* Pushar ner knappen */
+}
+
+.clickbutton:hover
+{
+  transform: scale(1.2);
+  /* Det blir en fin effekt */
+  cursor: pointer;
+  /* Fint effekt på mussen */
+}
+
+.carousel-inner
+{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testimonials-image
+{
+  border-radius: 50%;
+  
+}
+
+.footer
+{
+    background: white;
+    color: lightgray;
+    font-size: 12px;
+    padding: 20px 0;
+}
+
+.footer-inner
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer div
+{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer div i
+{
+    margin-right: 10px;
+}
+
+.footer ul
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer li
+{
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+/* Här börjar css för iphone.html */
+
+.PhonePicture_overlay
+{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.PhonePicture_overlay:hover
+{
+  opacity: 1;
+}
+
+.PhonePicture_title
+{
+  font-size: 2em;
+}
+
+a
+{
+  text-decoration: none;
+  color: rgba(red, green, blue, alpha);
+}
+
+.hoverovera
+{
+  text-decoration: none;
+   cursor: pointer;  
+   color: rgb(red, green, blue);
+    
+  }
+
+  .tools
+  {
+    width: 350px;
+  }
+
+  .texttools
+  {
+    text-align: left;
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  
+  .toolbutton
+  {
+    margin-top: 120px;
+  }
+
+/* Här börjar IphoneX.html CSS */
+
+.PhonePicturebrokenBack
+{
+  width: 270px;
+}
+
+.PhonePictureFront
+{
+  width: 270px;
+}
+
+.footer
+{
+  margin-top: 120px;
+}
+
+/* Här börjar iphone4.html css */
+
+.PhonePicturebrokenBack4
+{
+  width: 370px;
+}
+
+/* Här börjar tools.html css */
+
+.toolsPlus
+{
+  width: 50px;
+}
+
+.toolsStar
+{
+  width: 55px;
+}
+
+.toolNegative
+{
+  width: 58px;
+}
+
+.toolY
+{
+  width: 51px;
+}
+
+.pricetag
+{
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.toolkit
+{
+  background-color: steelblue;
+}
+
+.toolkittext
+{
+  font-size: 10px 4em;
+  color: black;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Här börjar samsung.html css */
+.PhonePicture_title_1
+{
+  color:#686d76;
+  font-size: 2.1em;
+}
+
+.PhonePicture_title_2
+{
+  color:#686d76;
+  font-size: 2.1em;
+}
+
+.PhonePicture_title_samsung
+{
+  margin-bottom: 90px;
+  font-size: 2.1em;
+  margin-left: 12px;
+  color:#686d76;
+}
+
+/* Här börjar samsungAce.html css */
+
+.batteryAce
+{
+  width: 400px;
+  margin-bottom: 220px;
+}
+
+.samsungAce
+{
+  width: 400px;
+  margin-top: 60px;
+}
+
+/* Här börjar youwonaphone.html css */
+
+.winnertext
+{
+  text-align: left;
+  font-family: 'Secular One', sans-serif;
+  font-size: 30px;
+  margin-top: none;
+}
+
+.winiphone
+{
+  margin-top: 120px;
+  color: #eeeeee;
+  background-color:#373a40;
+}
+
+.winbutton
+{
+  margin-top: 50px;
+  font-size: 10px;
+}
+
+.winnertext {
+  
+  /* Font options */
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ text-shadow: 2px 2px 4px #000000;
+ font-size:40px;
+ 
+  /* Chrome, Safari, Opera */
+ -webkit-animation: rainbow 3s infinite; 
+ 
+ /* Internet Explorer */
+ -ms-animation: rainbow 3s infinite;
+ 
+ /* Standar Syntax */
+ animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+ 0%{color: orange;}	
+ 10%{color: purple;}	
+ 20%{color: red;}
+ 30%{color: CadetBlue;}
+ 40%{color: yellow;}
+ 50%{color: coral;}
+ 60%{color: green;}
+ 70%{color: cyan;}
+ 80%{color: DeepPink;}
+ 90%{color: DodgerBlue;}
+ 100%{color: orange;}
+}
+
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  0%{color: orange;}	
+ 10%{color: purple;}	
+ 20%{color: red;}
+ 30%{color: CadetBlue;}
+ 40%{color: yellow;}
+ 50%{color: coral;}
+ 60%{color: green;}
+ 70%{color: cyan;}
+ 80%{color: DeepPink;}
+ 90%{color: DodgerBlue;}
+ 100%{color: orange;}
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+   0%{color: orange;}	
+ 10%{color: purple;}	
+ 20%{color: red;}
+ 30%{color: CadetBlue;}
+ 40%{color: yellow;}
+ 50%{color: coral;}
+ 60%{color: green;}
+ 70%{color: cyan;}
+ 80%{color: DeepPink;}
+ 90%{color: DodgerBlue;}
+ 100%{color: orange;}
+}
+
+/* Här börjar support.html css */
+
+.supportimg
+{
+  margin-left: 50px;
+
+}
+
+.introsupporttext 
+{
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0278ae;
+  font-size: 30px;
+}
+
+.textinfoSupport
+{
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0278ae;
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.textinfoSupporter
+{
+  font-style: italic;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0278ae;
+  font-size: 3em;
+  margin-top: 75px;
+}
+
+.textinfoSupporter:hover
+{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+/* Här börjar contact.html css */
+
+.subjectinfo
+{
+  text-align: center;
+}
+
+.supportnamelastname
+{
+  margin-top: 43px;
+}
+
+.bilderIntros
+{
+  color: #1f3c88;
+}
+
+/* Här börjar answer.html css */
+
+.textfunny
+{
+  text-align: center;
+  font-size: 4em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: steelblue;
+
+}
+
+@media screen and (max-width:959px)
+{
+  
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.popup2 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup2 .popuptext2 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Popup arrow */
+.popup2 .popuptext2::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup2 .show2 {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.popup3 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup3 .popuptext3 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Popup arrow */
+.popup3 .popuptext3::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup3 .show3 {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.popup4 {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup4 .popuptext4 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Popup arrow */
+.popup4 .popuptext4::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup4 .show4 {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+/* Här börjar team.html */
+.containerMiddle
+{
+  margin-left: 38%;
+}
+.card
+{
+  margin-top: 150px;
+  
+  color: red;
+}
+
+
+
+.card-title-Andi
+{
+  margin-left: 90px;
+  color: #158467;
+}
+
+.card-title-Hebun
+{
+  color: #150485;
+}
+
+.card-title-Srdjan
+{
+  color: #810000;
+}
+
+.card-title-Adam
+{
+  color: #db6400;
+}
+
+.sectionL
+{
+  background-image: url(image/Kool-background.png);
+}
+
+
+.cookie-overlay {
+  height: 100vh;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-color: rgba(0,0,0,0.6);
+  transition: 300ms all ease-in-out;
+}
+  .cookie-wrapper 
+  {
+    z-index: 2;
+    position: relative;
+    padding: 50px 70px;
+    font-family: sans-serif;
+    font-size: 1em;
+    border-radius: 0.5em;
+    
+    max-height: 100vh;
+    max-width: 650px;
+    
+    background-color: #fff;
+  }   
+      input[type="button"] 
+      {
+        cursor: pointer;
+        margin: 0.5em 0 1.5em 0;
+        padding: 10px;
+        width: 120px;
+
+        color: #fff;
+        background-color: #203e6d;
+        font-weight: bold;
+
+        outline: none;
+        border: none;
+        border-radius: 0.2em;
+      }
+  
+
+@media screen and (max-width: 405px) {
+ 
+    
+    .cookie-wrapper
+     {
+      padding: 35px;
+      border-radius: 0;
+    }
+  }
+
+  .test
+  {
+    background-image: url(image/test.PNG);
+  }
+
+  .chart {
+    width: 100%; 
+    min-height: 450px;
+  }
+  .row {
+    margin:0 !important;
+  }
+
+  /* Här börjar chart.html */
+
+  .charttext
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 2em;
+    font-stretch: ultra-condensed;
+  }
+
+  .charttextcolorGrey
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 4em;
+    font-stretch: ultra-condensed;
+    margin-top: 10px;
+    font-size: 20px;
+    color:black;
+  }
+
+  .charttextcolorYellow
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 4em;
+    font-stretch: ultra-condensed;
+    margin-top: 10px;
+    font-size: 20px;
+    color:#ffe05d;
+  }
+
+  .charttextcolorRed
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 4em;
+    font-stretch: ultra-condensed;
+    margin-top: 10px;
+    font-size: 20px;
+    color:red;
+  }
+
+
+  .charttextcolorGreen
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 4em;
+    font-stretch: ultra-condensed;
+    margin-top: 10px;
+    font-size: 20px;
+    color:green;
+  }
+
+  .charttextcolorBlue
+  {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 4em;
+    font-stretch: ultra-condensed;
+    margin-top: 10px;
+    font-size: 20px;
+    color:steelblue;
+  }
+
+  .chartB
+  {
+    margin-top: 70px;
+    background-image: url(image/Background.png);
+  }
+
+  /* Här börjar reklamen */
+
+  
+.ad1
+{
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+.ad2
+{
+  margin-left: 500px;
+  margin-top: 55px;
+}
+
+.chessyh1
+{
+  margin-left: 50px;
+  font-family: 'Rubik Mono One', sans-serif;
+  color:red;
+}
+
+.chessyp
+{
+  margin-left: -150px;
+  color:red;
+ font-family: 'Fredoka One', cursive;
+}
+
+.hamb
+{
+  background-color:#e79e4f;
+}
+
+.btn-warning
+{
+  margin-left: -190px;
+}
